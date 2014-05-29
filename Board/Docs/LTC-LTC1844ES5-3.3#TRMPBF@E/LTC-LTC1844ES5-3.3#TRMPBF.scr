@@ -1,0 +1,105 @@
+# Created by Ultra Librarian Gold 5.3.71 Copyright © 1999-2010
+# Tanvir Mohammed, Premier Farnell
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SOT95P280X100-5N.pac';
+Layer 1;
+Smd '1' 48 20 -0 R0 (-48 37);
+Layer 1;
+Smd '2' 48 20 -0 R0 (-48 0);
+Layer 1;
+Smd '3' 48 20 -0 R0 (-48 -37);
+Layer 1;
+Smd '4' 48 20 -0 R0 (48 -37);
+Layer 1;
+Smd '5' 48 20 -0 R0 (48 37);
+Layer 21;
+Wire 6 (-16 -57) (16 -57);
+Wire 6 (34 -14) (34 14);
+Wire 6 (16 57) (-16 57);
+Wire 6 (12 57) -180 (-12 57);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-81 52);
+Layer 51;
+Wire 0 (-34 -57) (34 -57);
+Wire 0 (34 -57) (34 57);
+Wire 0 (34 57) (-34 57);
+Wire 0 (-34 57) (-34 -57);
+Wire 0 (-34 29) (-34 46);
+Wire 0 (-34 46) (-55 46);
+Wire 0 (-55 46) (-55 29);
+Wire 0 (-55 29) (-34 29);
+Wire 0 (-34 -9) (-34 9);
+Wire 0 (-34 9) (-55 9);
+Wire 0 (-55 9) (-55 -9);
+Wire 0 (-55 -9) (-34 -9);
+Wire 0 (-34 -46) (-34 -29);
+Wire 0 (-34 -29) (-55 -29);
+Wire 0 (-55 -29) (-55 -46);
+Wire 0 (-55 -46) (-34 -46);
+Wire 0 (34 -29) (34 -46);
+Wire 0 (34 -46) (55 -46);
+Wire 0 (55 -46) (55 -29);
+Wire 0 (55 -29) (34 -29);
+Wire 0 (34 46) (34 29);
+Wire 0 (34 29) (55 29);
+Wire 0 (55 29) (55 46);
+Wire 0 (55 46) (34 46);
+Wire 0 (12 57) -180 (-12 57);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-81 52);
+Layer 25;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-136 100);
+
+Layer 27;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-136 -175);
+
+
+Edit 'LTC1844ES5-3.3TRMPBF.sym';
+Layer 94;
+Pin 'IN' Pwr None Middle R0 Both 0 (-700 100);
+Pin 'BYP' Pas None Middle R0 Both 0 (-700 -100);
+Pin '~SHDN' In None Middle R0 Both 0 (-700 -200);
+Pin 'GND' Pas None Middle R0 Both 0 (-700 -400);
+Pin 'OUT' Out None Middle R180 Both 0 (700 100);
+Wire 16 (-500 300) (-500 -600);
+Wire 16 (-500 -600) (500 -600);
+Wire 16 (500 -600) (500 300);
+Wire 16 (500 300) (-500 300);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 10;
+Text '>NAME' SR0 (-194 405);
+Layer 96;
+Change Size 82;
+Change Ratio 10;
+Text '>VALUE' SR0 (-226 -769);
+
+Edit 'LTC1844ES5-3.3TRMPBF.dev';
+Prefix 'U';
+
+Value Off;
+Add LTC1844ES5-3.3TRMPBF 'A' Next  0 (0 0);
+Package 'SOT95P280X100-5N';
+Technology '';
+Description '150mA, Micropower, Low Noise, VLDO Linear Regulator';
+Attribute Supplier 'Linear Technology';
+Attribute OC_NEWARK '19P0621';
+Attribute OC_FARNELL '1663867';
+Attribute Package 'SOT-23-5';
+Attribute MPN 'LTC1844ES5-3.3#TRMPBF';
+Connect 'A.IN' '1';
+Connect 'A.GND' '2';
+Connect 'A.~SHDN' '3';
+Connect 'A.BYP' '4';
+Connect 'A.OUT' '5';

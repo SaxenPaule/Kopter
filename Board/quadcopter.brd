@@ -154,6 +154,16 @@
 <text x="53.75" y="9.25" size="1.016" layer="26" font="vector" rot="MR45">GND</text>
 <text x="52" y="7.45" size="1.016" layer="26" font="vector" rot="MR45">TX</text>
 <text x="50.05" y="5.75" size="1.016" layer="26" font="vector" rot="MR45">RX</text>
+<text x="3.2" y="53.45" size="1.27" layer="25" font="vector">Rev. A</text>
+<text x="5.5" y="56" size="2.54" layer="25" font="vector">opter!</text>
+<text x="4.9" y="56" size="2.54" layer="25" font="vector" rot="MR0">K</text>
+<text x="42.2" y="18.05" size="6.4516" layer="26" font="vector">K</text>
+<text x="40.75" y="18.05" size="6.4516" layer="26" font="vector" rot="MR0">opter!</text>
+<text x="45.7" y="59.05" size="2.54" layer="25" font="vector" rot="MR270">K</text>
+<text x="41" y="56.9" size="2.54" layer="25" font="vector" rot="MR180">K</text>
+<text x="45.7" y="54.55" size="2.54" layer="25" font="vector" rot="SMR270">K</text>
+<text x="45.5" y="56.95" size="2.54" layer="25" font="vector" rot="SMR180">K</text>
+<text x="47.6" y="54.7" size="2.54" layer="25" font="vector">opter!</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

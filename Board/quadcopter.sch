@@ -8206,7 +8206,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="10k"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="1u"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="0.1u"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="10UF-6.3V-20%(0603)" device="" value="1u"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>

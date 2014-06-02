@@ -1216,7 +1216,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R1" library="SparkFun-Resistors" package="0603-RES" value="10k" x="13.15" y="8.25" rot="R180">
 <attribute name="PROD_ID" value="RES-08296" x="13.15" y="8.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="0603-CAP" value="1u" x="15.95" y="11.65" rot="R90">
+<element name="C3" library="SparkFun-Capacitors" package="0603-CAP" value="0.1u" x="15.95" y="11.65" rot="R90">
 <attribute name="PROD_ID" value="CAP-11015" x="15.95" y="11.65" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C9" library="SparkFun-Capacitors" package="0603-CAP" value="1u" x="10.3" y="9.2" rot="R270">
